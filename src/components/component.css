@@ -1,0 +1,12 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-link {
+  width: auto;
+  z-index: 1000;
+  position: relative;
+  align-self: flex-end;
+  text-align: center;
+  text-decoration: none;
+}

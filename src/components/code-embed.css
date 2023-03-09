@@ -1,0 +1,17 @@
+.code-embed-container {
+  display: flex;
+  position: relative;
+}
+.code-embed-code-embed {
+  width: 636px;
+  height: 6588px;
+  z-index: 100;
+  align-self: flex-start;
+}
+@media(max-width: 479px) {
+  .code-embed-code-embed {
+    flex: 1;
+    width: 640px;
+    height: 3677px;
+  }
+}
